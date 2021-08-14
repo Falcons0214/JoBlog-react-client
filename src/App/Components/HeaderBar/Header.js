@@ -9,7 +9,7 @@ class Headerbar extends React.Component {
       <header className="header-bar">
         <h1>Joseph</h1>
           <div className="button-container">
-            <Searchbutton iconMod={this.props.iconMod} />
+            <Searchbutton curPathRecord={this.props.curPathRecord} iconMod={this.props.iconMod} />
             <Button navController={this.props.navController} iconMod={this.props.iconMod} />
           </div>
       </header>

@@ -2,7 +2,6 @@ import React from "react";
 import "./Searchbutton.css";
 
 class Searchbutton extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -19,12 +18,16 @@ class Searchbutton extends React.Component {
   }
 
   iconColor() {
-    return this.state.flag === false ? "search-btn" : "search-btn active";
+    if (this.props.iconMod) {
+      return "search-btn nav"
+    } else {
+      return this.state.flag === false ? "search-btn" : "search-btn active";
+    }
   }
 
   render() {
-    if (this.props.iconMod) {
-      return <span/>;
+    if (this.props.curPathRecord) {
+      return <span />;
     } else {
       return (
         <div className="search-box">
@@ -32,9 +35,13 @@ class Searchbutton extends React.Component {
             className="search-text"
             type="text"
             name=""
-            placeholder="Type to search"
+            placeholder="Post search"
           />
-          <p className={this.iconColor()} onMouseDown={this.mouseEvent} onMouseUp={this.mouseEvent} >
+          <p
+            className={this.iconColor()}
+            onMouseDown={this.mouseEvent}
+            onMouseUp={this.mouseEvent}
+          >
             <i className="fas fa-search"></i>
           </p>
         </div>

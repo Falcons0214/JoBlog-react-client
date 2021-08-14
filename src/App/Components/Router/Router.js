@@ -9,14 +9,14 @@ class Router extends React.Component {
     return (
       <Switch>
         <Route path="/admin">
-          <Admin />
+          <Admin pathRecorder={this.props.curPathRecord} />
         </Route>
         <Route path="/about">
-          <About />
+          <About pathRecorder={this.props.curPathRecord} />
         </Route>
-        <Route path="/:id" children={<Home />} />
+        <Route path="/:id" children={<Home pathRecorder={this.props.curPathRecord} />} />
         <Route path="/">
-          <Home />
+          <Home pathRecorder={this.props.curPathRecord} />
         </Route>
       </Switch>
     );

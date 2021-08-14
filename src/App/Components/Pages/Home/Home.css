@@ -1,20 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
 .post-container {
-  /* background-color: aliceblue; */
-  border-style: solid;
+  /* border-style: solid;
+  border-color: black; */
+  max-height: 85vh;
+  overflow-y: auto;
+  /* overflow: hidden;  */
+}
+
+.post-container::-webkit-scrollbar {
+  display: none;
 }
 
 .post {
   border-style: solid;
-  border-color: red;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #5f6769;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.post:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.post-title {
+  margin-left: 5%;
+  font-size: 2.7rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+.post-meta {
+  margin-left: 5.1%;
+  font-family: "Roboto Slab", serif;
 }
 
 .post-img {
-    text-align: center;
+  text-align: center;
 }
 
 .post-img img {
-    width: 70%;
+  width: 70%;
 }

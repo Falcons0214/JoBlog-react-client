@@ -7,8 +7,12 @@ import Router from "./Components/Router/Router";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isNavOpen: false };
+    this.state = {
+      isNavOpen: false,
+      currentPath: Boolean,
+    };
     this.navController = this.navController.bind(this);
+    this.curPathRecord = this.curPathRecord.bind(this);
   }
 
   navController() {
@@ -17,19 +21,26 @@ class App extends React.Component {
     }));
   }
 
+  curPathRecord(bool) {
+    this.setState(() => ({
+      currentPath: bool,
+    }));
+  }
+
   render() {
     return (
-      <div>
+      <div className="viewContainer">
         <Headerbar
           navController={this.navController}
+          curPathRecord={this.state.currentPath}
           iconMod={this.state.isNavOpen}
         />
         <NavigationMenu
           navController={this.navController}
           canNavOpen={this.state.isNavOpen}
         />
-        <div>
-          <Router />
+        <div className="pages-container">
+          <Router curPathRecord={this.curPathRecord} />
         </div>
       </div>
     );

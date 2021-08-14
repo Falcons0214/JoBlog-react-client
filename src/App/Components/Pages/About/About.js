@@ -3,6 +3,12 @@ import "./About.css";
 import headPhoto from "./head.png";
 
 class About extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.props.pathRecorder(true);
+  }
+
   render() {
     return (
       <div className="bio-container">
@@ -26,6 +32,9 @@ class About extends React.Component {
           </a>
           <a href="https://jeffery12366yahoo-com.medium.com/">
             <i className="fab fa-medium-m"></i>
+          </a>
+          <a className="about-l" href="https://www.linkedin.com/in/%E6%9F%8A%E6%A3%AE-%E9%BB%83-2252ab21a/">
+          <i className="fab fa-linkedin-in"></i>
           </a>
         </div>
       </div>

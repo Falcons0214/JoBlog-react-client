@@ -74,6 +74,10 @@
     background-color: #f95959;
 }
 
+.about-l:hover::before {
+    background-color: #00bbf0;
+}
+
 .icon-container a i {
     z-index: 1;
     font-size: 1.8rem;

@@ -1,6 +1,12 @@
 import React from "react";
 
 class Admin extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.props.pathRecorder(true);
+  }
+  
   render() {
     return (
       <div>
