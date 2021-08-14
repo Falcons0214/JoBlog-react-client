@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.bio-container {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.photo-section img {
+    width: 250px;
+}
+
+.text-section {
+    color: #233142;
+    margin-top: 2rem;
+}
+
+.text-section b {
+    font-size: 1.9rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-section p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.icon-container a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+
+.icon-container a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    border-radius: 50%;
+    /* z-index: -1; */
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.icon-container a:hover {
+    color: #fff;
+}
+
+.icon-container a:hover::before {
+    transform: scale(1);
+}
+
+.about-f:hover::before {
+    background-color: #005689;
+}
+
+.about-g:hover::before {
+    background-color: #f95959;
+}
+
+.icon-container a i {
+    z-index: 1;
+    font-size: 1.8rem;
+}
+

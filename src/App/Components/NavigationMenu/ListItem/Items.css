@@ -1,0 +1,41 @@
+.list-container {
+  margin-bottom: 5rem;
+}
+
+.navigation-menu li {
+  margin: 2rem 0;
+  /* overflow: hidden; */
+}
+
+.navigation-menu span {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  position: relative;
+  display: inline-block;
+  transform: translateY(40px);
+  cursor: pointer;
+}
+
+.navigation-menu span::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 15px;
+  background: #fd7474;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px;
+  z-index: -1;
+  transition: 0.2s linear;
+}
+
+.navigation-menu span:hover::before {
+  width: 100%;
+}
+
+/* .navigation-menu.active span {
+  transform: translateY(0);
+  transition: 0.6s linear;
+} */
