@@ -1,0 +1,52 @@
+.postext-container {
+  width: 78%;
+  margin-top: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Slab", serif;
+}
+
+.postext-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postext-title h2 {
+  font-size: 2.4rem;
+}
+
+.postext-title span {
+  font-size: 1.1rem;
+}
+
+.content-container {
+  display: flex;
+  /* border-style: solid;
+  border-color: black; */
+  margin-top: 1%;
+}
+
+.post-text-container {
+  width: 40%;
+  /* border-style: solid;
+  border-color: green; */
+}
+
+.post-text-container p {
+  word-wrap: break-word;
+  font-size: 1.2rem;
+  overflow-y: auto;
+  height: 63.5vh;
+}
+
+.post-photo-container {
+  text-align: right;
+  /* border-style: solid;
+  border-color: yellow; */
+  width: 60%;
+}
+
+.post-photo-container img {
+  width: 90%;
+}

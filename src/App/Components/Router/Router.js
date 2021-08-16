@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import About from "../Pages/About/About";
 import Admin from "../Pages/Admin/Admin";
 import Home from "../Pages/Home/Home";
+import Post from "../Post/Post";
 
 class Router extends React.Component {
   render() {
@@ -14,7 +15,7 @@ class Router extends React.Component {
         <Route path="/about">
           <About pathRecorder={this.props.curPathRecord} />
         </Route>
-        <Route path="/:id" children={<Home pathRecorder={this.props.curPathRecord} />} />
+        <Route path="/post/:id" children={<Post pathRecorder={this.props.curPathRecord} />} />
         <Route path="/">
           <Home pathRecorder={this.props.curPathRecord} />
         </Route>

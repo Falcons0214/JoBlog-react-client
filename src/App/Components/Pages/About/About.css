@@ -27,7 +27,7 @@
 .icon-container {
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 10%;
 }
 
 .icon-container a {
@@ -76,6 +76,10 @@
 
 .about-l:hover::before {
     background-color: #00bbf0;
+}
+
+.about-r:hover::before {
+    background-color: #900048;
 }
 
 .icon-container a i {
