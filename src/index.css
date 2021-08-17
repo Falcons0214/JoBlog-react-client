@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
 
 body,
 html {
@@ -16,7 +16,7 @@ html {
 }
 
 #root {
-  background-image: url("./Static/Images/view1.jpg");
+  background-image: url("https://lh3.googleusercontent.com/fife/AAWUweWKSnYbfHNFTQKWmFEsxAoTEoGJQfhIEmiQEhBDMM-M-BPdJW4t1VTSAQUZyqpcTYUO4e5tiqWMZsFda6yk1oojicC38VdatunR-d15OXGXO3eRAk1_EmA8nPQTYRsq_T2VRjPjt0neeoZUHsD0iXBb_Wub4nFvA_jsddfoWQZc9X8RiZo3a6rPxsqMuJXOEuuhP6yDpBkv_XzHqlhrW45pL--n0zbJOMZZ7XoU47GagVMhPLKGTRBXhi6L_hqG8lR6-x5bWP-l3agifdAOlTVtdPWMKirGh3Yh7BU39USWt11-ZnCzEvSSR3sMFSUo7-KjX5nMFsePA03WMQ5h4_x4Fl6kH535nFFGjpBP60YPk-ub9Xo9JOVXwag6RPk351dtSTV6f9nnX3M_rGisDH_ySxkoxpVEMSA-k3Uhi2HvPfF-eOscw0nKbUj5JmSuB8JBTjuEOdooXZN16mexZEE0QQqHemuexbEiMq3u3qbebZHFXyRilePdFpz2tm1tKV7Fe69kmE9COodKly7ZuNGM4g6ys2kZ8MX-OwXXyKPxzg3Ie6PTls8T78zWoiR4tRPbckFR7QqvVgX3DgKFgeeOkE67bFCSz51yyDOhEGUDq2F6l3uN273CaltfPMVyYXLcO2X1LOXiTz2uWvUCVhqAqVJDx-OAI2xMhUeopG7VANvj4T6m29CfFF4qpppbABDg_gyewgh6XKE3XBWqS-3WrqQ=w1920-h992-ft");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;

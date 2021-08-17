@@ -17,27 +17,44 @@
 }
 
 .postext-title span {
-  font-size: 1.1rem;
+  font-size: 1.1rem; 
 }
 
 .content-container {
   display: flex;
   /* border-style: solid;
   border-color: black; */
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 .post-text-container {
   width: 40%;
+  overflow-y: auto;
+  height: 63.5vh;
   /* border-style: solid;
   border-color: green; */
 }
 
-.post-text-container p {
+.text-box {
+  margin-bottom: 7%;
+}
+
+.text-box h2 {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.text-box-h2-active:hover {
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.text-box p {
   word-wrap: break-word;
   font-size: 1.2rem;
-  overflow-y: auto;
-  height: 63.5vh;
+  margin-top: 1%;
+  width: 97.5%;
 }
 
 .post-photo-container {
@@ -45,8 +62,11 @@
   /* border-style: solid;
   border-color: yellow; */
   width: 60%;
+  overflow-y: auto;
+  height: 65vh;
 }
 
 .post-photo-container img {
+  /* height: 63.5vh; */
   width: 90%;
 }

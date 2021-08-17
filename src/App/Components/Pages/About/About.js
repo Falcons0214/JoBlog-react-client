@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import headPhoto from "./head.png";
 
 class About extends React.Component {
   constructor(props) {
@@ -12,7 +11,7 @@ class About extends React.Component {
     return (
       <div className="bio-container">
         <div className="photo-section">
-          <img alt="img" src={headPhoto} />
+          <img alt="img" src="https://lh3.googleusercontent.com/fife/AAWUweXaYgYLjX4MmAZ9GsF32v6M829nRGGnwMpOCjXwpJ_IVbf4RZS4L_PvQS5u_OFus1vzVM7NxlQH6JkyCkV_exmxPF6spfzw2D1tbdexl_r_h6qCYqEZrwwHilRrYHwqQ-44T_tZ8I1eFNyHKR9cpaUTCFtzT85JNp9HUj1n9eiGG8lFr0sSYptLeXh9s2RB3j8u9m72gtkhlIfw5SqgeK9lFMOGPq4bEY0KII6DVnY9ku3nd6PkLx0z6JJ3fBVPawdYXb2p8pBT-iNunMluKLpvKQSyvU5EKxueWCpO0oStDlRdMEvNOmnxKm13j5dXLf4EmJPVBCEz1fHfq7QR5Hw5FuGgv2TOjqBVAknMCQkRxD7J4vZdftQ7HSGQ_BHt40pIZMhHmXanv4IcpXoiBGzmYA1e1c-ePkyA6shtcpKdqMy0B__mCuzMVCUc-uEoJfwCTA3noSOF8fmARy45IY69tpfL0ysdC9RI34gMPVfaJszKSNQz6s66QLERCUVBQp9yqes9qby3eYPeBePw-YmsqIXCmfZaOU5CQnfw3bI7kaclYHiahDGJZgLagzm5_EAq3o-nTSJi-gFzZK1SOL3w9MelxcxE1VOZI3ObFp4R_0CRW74sv_HvmCcahXCA7BHEtnbliTtTrixoqerjubimfMlyS99PUYYGrvJ7euitetlP7jEUmvF_qaNBaD66eRKG8cSgBAB8ailuYozjlFnObhU=w1442-h992-ft" />
         </div>
         <div className="text-section">
           <p>

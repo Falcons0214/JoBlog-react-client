@@ -16,17 +16,13 @@ class NavigationMenu extends React.Component {
           url: "/movie",
         },
         { 
-          title: "Life",
-          url: "/life",
+          title: "Travel",
+          url: "/travel",
         },
         { 
           title: "About me",
           url: "/about",
         },
-        {
-          title: "Admin",
-          url: "/admin",
-        }
       ],
     };
     this.navSlider = this.navSlider.bind(this);
