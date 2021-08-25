@@ -18,15 +18,11 @@ class Searchbutton extends React.Component {
   }
 
   iconColor() {
-    if (this.props.iconMod) {
-      return "search-btn nav"
-    } else {
-      return this.state.flag === false ? "search-btn" : "search-btn active";
-    }
+    return this.state.flag === false ? "search-btn" : "search-btn active";
   }
 
   render() {
-    if (this.props.curPathRecord) {
+    if (this.props.currentPath || this.props.iconMod) {
       return <span />;
     } else {
       return (

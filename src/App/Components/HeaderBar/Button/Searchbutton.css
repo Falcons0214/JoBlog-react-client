@@ -25,10 +25,10 @@
   transition: 0.1s;
 }
 
-.search-btn.nav {
+/* .search-btn.nav {
   color: #2c3a47;
   transition: 0.2s;
-}
+} */
 
 .search-btn.active {
   color: #f03861;

@@ -1,25 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background-color: transparent;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(173, 173, 173); 
-  border-radius: 20px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(61, 61, 61); 
-}
-
 .post-container {
   /* border-style: solid;
   border-color: black; */
@@ -80,6 +60,7 @@
 
 .post-img {
   text-align: center;
+  margin-top: 2%;
 }
 
 .post-img img {

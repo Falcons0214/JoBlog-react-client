@@ -7,9 +7,13 @@ class NavigationMenu extends React.Component {
     super(props);
     this.state = {
       list: [
-        {
-          title: "Home",
+        { 
+          title: "Life",
           url: "/",
+        },
+        { 
+          title: "Food",
+          url: "/food",
         },
         { 
           title: "Movie",

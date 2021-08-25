@@ -32,7 +32,7 @@ class App extends React.Component {
       <div className="viewContainer">
         <Headerbar
           navController={this.navController}
-          curPathRecord={this.state.currentPath}
+          currentPath={this.state.currentPath}
           iconMod={this.state.isNavOpen}
         />
         <NavigationMenu

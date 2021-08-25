@@ -1,9 +1,23 @@
 .postext-container {
-  width: 78%;
-  margin-top: 1.5%;
+  width: 70%;
+  margin-top: 0.5%;
   margin-left: auto;
   margin-right: auto;
   font-family: "Roboto Slab", serif;
+}
+
+.post-loading {
+  margin-top: 22%;
+  text-align: center;
+}
+
+.post-loading h1 {
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.page-load-done {
+  color: transparent;
 }
 
 .postext-title {
@@ -17,20 +31,25 @@
 }
 
 .postext-title span {
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
+}
+
+.post-tag {
+  margin-left: 0.2%;
+  margin-top: 1%;
 }
 
 .content-container {
   display: flex;
   /* border-style: solid;
   border-color: black; */
-  margin-top: 2%;
+  margin-top: 1.5%;
+  overflow-y: auto;
+  height: 70vh;
 }
 
 .post-text-container {
-  width: 40%;
-  overflow-y: auto;
-  height: 63.5vh;
+  width: 100%;
   /* border-style: solid;
   border-color: green; */
 }
@@ -44,29 +63,18 @@
   font-size: 1.3rem;
 }
 
-.text-box-h2-active:hover {
-  color: white;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
 .text-box p {
   word-wrap: break-word;
   font-size: 1.2rem;
   margin-top: 1%;
-  width: 97.5%;
+  /* width: 97.5%; */
 }
 
 .post-photo-container {
-  text-align: right;
-  /* border-style: solid;
-  border-color: yellow; */
-  width: 60%;
-  overflow-y: auto;
-  height: 65vh;
+  text-align: center;
 }
 
 .post-photo-container img {
-  /* height: 63.5vh; */
-  width: 90%;
+  margin-top: 20px;
+  width: 60%;
 }
